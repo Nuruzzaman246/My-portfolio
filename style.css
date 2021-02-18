@@ -1,0 +1,345 @@
+*{
+margin: 0 auto;
+padding: 0 auto;
+
+
+}
+.first_section{
+background-image: url(nuru.jpg);
+background-repeat: no-repeat;
+
+background-size: cover;
+
+padding-bottom: 100px;
+height: auto;
+
+
+}
+.logo{
+
+    width: 24%;
+    float: left;
+    text-align: right;
+    padding: 10px;
+}
+.menu{
+width: 30%;
+float: right;
+
+}
+.menu ul{}
+
+.menu ul li {
+display: inline-block;
+padding: 10px 0px;
+
+}
+
+
+.menu ul li a {
+text-decoration: none;
+padding: 10px 15px;
+font-size: 20px;
+color: rgb(55, 0, 255);
+
+
+}
+
+
+.menu ul li a:hover{
+    color: rgb(14, 13, 13);
+}
+
+.content{
+
+    background: rgb(97, 3, 97);
+    margin-top: 350px;
+    clear: both;
+    display: inline-block;
+    margin-left: -267px;
+    padding: 39px 18px;
+    border: 2px solid rgb(243, 10, 243);
+    border-radius: 40px 0px 40px;
+    line-height: 44px;
+    color: wheat;
+    box-shadow: 10px 10px 10px black;
+    
+}
+.content:hover{
+
+    background: rgb(80, 80, 79);
+    animation: nuru 2s;
+}
+.button{
+
+   display: flex;
+
+}
+
+.about{
+    text-decoration: none;
+    background: #07314e;
+    padding: 5px 10px;
+    border: 2px solid rgb(243, 10, 243);
+    border-radius: 20px 0px 20px;
+    color: wheat;
+    margin-top: 40px;
+}
+.about:hover{
+    background: rgb(14, 89, 107);
+
+    animation: nuru 2s;
+
+
+
+
+}
+.order{
+
+    text-decoration: none;
+    background: #07314e;
+    padding: 5px 10px;
+    border: 2px solid rgb(243, 10, 243);
+    border-radius: 20px 0px 20px;
+    color: wheat;
+    margin-top: 40px;
+}
+.order:hover{
+    background: rgb(14, 89, 107);
+    animation: nuru 2s;
+}
+.second_section{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 2px dotted black;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 20px black;
+}
+.second_section:hover{
+    background: rgb(177, 177, 173);
+    animation: nuru 2s;
+}
+.second_section h2{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px dotted black;
+    margin-bottom: 60px;
+    padding-bottom: 13px;
+    
+
+}
+
+
+.second_section p{
+
+    font-size: 20px;
+    text-align: justify;
+    line-height: 45px;
+}
+.third_section{
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.third_section h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: rgb(97, 3, 97);
+    width: 20%;
+    padding: 10px 10px;
+    font-size: 30px;
+    border-radius: 50px 0px;
+    margin-right: 513px;
+    box-shadow: 10px 10px 10px black;
+}
+.third_section h2:hover{ background: rgb(80, 80, 79);
+    animation: nuru 2s;
+
+}
+
+
+.box1{
+    width: 20%;
+    height: auto;
+    background: rgb(97, 3, 97);
+    margin: initial;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 50px 0px 50px;
+   
+}
+
+.box1 h3{
+    text-align: center;
+    color: wheat;
+    font-size: 30px;
+    border-bottom: 1px solid wheat;
+
+}
+
+.box1 p{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: wheat;
+}
+
+.box2{
+    width: 20%;
+    height: auto;
+    background: rgb(97, 3, 97);
+    float: right;
+    margin-right: 520px;
+    margin-top: -193px;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 50px 0px 50px;
+
+}
+
+.box2 h3{
+    text-align: center;
+    color: wheat;
+    font-size: 30px;
+    border-bottom: 1px solid wheat;
+
+}
+
+.box2 p{
+
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: wheat;
+}
+
+.box3{
+    width: 20%;
+    height: auto;
+    background: rgb(97, 3, 97);
+    float: right;
+    margin-right: 55px;
+    margin-top: -193px;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 50px 0px 50px;
+
+}
+
+.box3 h3{
+    text-align: center;
+    color: wheat;
+    font-size: 30px;
+    border-bottom: 1px solid wheat;
+
+}
+
+.box3 p{
+
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: wheat;
+    
+
+}
+.contact_section{
+    
+    background: black;
+    margin-bottom: 50px;
+    padding: 10px 5px;
+    color: wheat;
+    width: 20%;
+    text-align: center;
+    border-radius: 50px 0px 50px;
+    margin-right: 523px;
+    font-size: 20px;
+
+
+}
+.contact_box{
+    margin-bottom: 50px;
+    background: black;
+    width: 90%;
+    color: wheat;
+    padding: 10px 10px;
+    height: 500px;
+    
+    
+}
+.contact_box2{
+    clear: both;
+
+    margin-top: 90px;
+    margin-left: 150px;
+    line-height: 34px;
+    width: 20%;
+    padding: 10px 10px;
+    border: 2px solid wheat;
+    border-radius: 50px 0px 50px;
+    text-align: center;
+    box-shadow: -1px -1px 16px 3px;
+}
+
+.contact_box2:hover {
+    background: #32595a;
+    animation: nuru 2s;
+}
+
+.form{
+    width: 30%;
+    float: right;
+    margin-right: 100px;
+    margin-top: -180px;
+    padding: 10px 10px;
+    border: 2px solid wheat;
+    text-align: center;
+    box-shadow: -1px -1px 16px 3px;
+    border-radius: 50px 0px 50px;
+}
+input{
+    background: rgb(248, 188, 136);
+    padding: 13px 40px;
+    border-radius: 50px;
+}
+textarea{
+    background: rgb(248, 188, 136);
+}
+
+.copyright{
+    background: black;
+    color: wheat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    padding: 10px 10px;
+    border-radius: 50px 0px 50px;
+    text-align: center;
+}
+
+
+/* animation  */
+
+@keyframes nuru{
+
+    0%{
+        background: linear-gradient(yellow,red);
+    }
+
+    100%{
+
+     
+   background: linear-gradient(wheat,red);
+
+   transform:rotate(360deg) ;
+    }
+}
